@@ -1,0 +1,164 @@
+body {
+  background-color: #b7b3b3;
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.welcome-message {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.welcome-text {
+  position: relative;
+  z-index: 2;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+}
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+}
+
+.headshot-photo {
+  width: 200px;
+  border: 3px solid #555;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 250px;
+  padding: 20px;
+}
+
+.about-text h2 {
+  font-size: 2em;
+  color: #333;
+}
+
+/* Employment table */
+.employment-history {
+  padding: 40px 20px;
+}
+
+.employment-history h2 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.employment-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.employment-table th,
+.employment-table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: left;
+}
+
+.employment-table th {
+  background-color: #eaeaea;
+}
+
+.employment-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+main h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 30px;
+  color: #2c3e50;
+}
+
+.course {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.course-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.course-header h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.grade {
+  margin: 0;
+  font-weight: bold;
+  color: #007700;
+  text-align: right;
+}
+
+.description {
+  margin-top: 10px;
+  font-size: 0.95em;
+}
